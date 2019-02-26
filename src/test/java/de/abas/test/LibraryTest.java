@@ -20,7 +20,7 @@ public class LibraryTest {
 	@Test
 	public void canGreetWithSpecificName() {
 		Library library = new Library();
-		assertThat(library.helloWorld("Benny"), is("Hello, Jasmin!"));
+		assertThat(library.helloWorld("Benny"), is("Hello, Benny!"));
 	}
 
 }
